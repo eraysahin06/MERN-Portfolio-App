@@ -7,7 +7,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="logo">Eray Sahin</a>
+          <a href="#intro" className="logo">Eray <span style={{"color":"crimson"}}>Sahin</span></a>
           <div className="itemContainer">
             {/* TODO: ADD LOGO (FONTAWESOME etc.) */}
             <span>+44 444 44 44</span>
